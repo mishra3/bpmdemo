@@ -9,7 +9,7 @@
     </bpmn:endEvent>
     <bpmn:sequenceFlow id="Flow_1mn8453" sourceRef="StartEvent_1" targetRef="Activity_1nppma1" />
     <bpmn:sequenceFlow id="Flow_1v9myc2" sourceRef="Activity_1nppma1" targetRef="Event_1jre8kn" />
-    <bpmn:userTask id="Activity_1nppma1" name="Enter ECR Address">
+    <bpmn:userTask id="Activity_1nppma1" name="Enter Transaction Type">
       <bpmn:incoming>Flow_1mn8453</bpmn:incoming>
       <bpmn:outgoing>Flow_1v9myc2</bpmn:outgoing>
     </bpmn:userTask>
